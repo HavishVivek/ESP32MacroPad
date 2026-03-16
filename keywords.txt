@@ -1,0 +1,37 @@
+#######################################
+# Syntax Coloring Map for ESP32MacroPad
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ESP32MacroPad	KEYWORD1
+MacroPadCallback	KEYWORD1
+MacroPadLayoutCallback	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+addButton	KEYWORD2
+addEncoder	KEYWORD2
+bindButton	KEYWORD2
+setLayoutCount	KEYWORD2
+setLayout	KEYWORD2
+getLayout	KEYWORD2
+showMessage	KEYWORD2
+update	KEYWORD2
+keyboard	KEYWORD2
+display	KEYWORD2
+isConnected	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MACROPAD_MAX_BUTTONS	LITERAL1
+MACROPAD_MAX_ENCODERS	LITERAL1
+MACROPAD_MAX_LAYOUTS	LITERAL1
+MACROPAD_FEEDBACK_MS	LITERAL1
